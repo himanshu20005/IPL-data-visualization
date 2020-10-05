@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/IPL-data-visualization/static/css/main.2215eae9.chunk.css",
-    "main.js": "/IPL-data-visualization/static/js/main.ca3f4e89.chunk.js",
-    "main.js.map": "/IPL-data-visualization/static/js/main.ca3f4e89.chunk.js.map",
+    "main.js": "/IPL-data-visualization/static/js/main.1c0a13c0.chunk.js",
+    "main.js.map": "/IPL-data-visualization/static/js/main.1c0a13c0.chunk.js.map",
     "runtime-main.js": "/IPL-data-visualization/static/js/runtime-main.b4154f91.js",
     "runtime-main.js.map": "/IPL-data-visualization/static/js/runtime-main.b4154f91.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/IPL-data-visualization/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.421bbe2a.chunk.js": "/IPL-data-visualization/static/js/2.421bbe2a.chunk.js",
     "static/js/2.421bbe2a.chunk.js.map": "/IPL-data-visualization/static/js/2.421bbe2a.chunk.js.map",
     "index.html": "/IPL-data-visualization/index.html",
-    "precache-manifest.7990e8c667cb209ae23fa1347422dac2.js": "/IPL-data-visualization/precache-manifest.7990e8c667cb209ae23fa1347422dac2.js",
+    "precache-manifest.d6dc7519b9f0d45f29ae2cf43ec63dca.js": "/IPL-data-visualization/precache-manifest.d6dc7519b9f0d45f29ae2cf43ec63dca.js",
     "service-worker.js": "/IPL-data-visualization/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/IPL-data-visualization/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2215eae9.chunk.css.map": "/IPL-data-visualization/static/css/main.2215eae9.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.421bbe2a.chunk.js",
     "static/css/main.2215eae9.chunk.css",
-    "static/js/main.ca3f4e89.chunk.js"
+    "static/js/main.1c0a13c0.chunk.js"
   ]
 }
