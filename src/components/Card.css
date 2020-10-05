@@ -1,0 +1,42 @@
+.nav-bar {
+  background-color: #00416d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+body {
+  background-color: #f6f5f5;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar a:hover {
+  color: #ffc93c;
+}
+.year-navbar {
+  background-color: #f6f5f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.graph {
+  padding: 10px 50px 50px 50px;
+}
+.vertical-line {
+  padding-right: 60px;
+  border-left: 1px solid #fff;
+}
+.btn-theme {
+  color: #000;
+  background-color: #f6f5f5;
+
+  border-color: #00416d;
+}
+.btn-theme:hover {
+  color: #fff;
+  background-color: #00416d;
+
+  border-color: #00416d;
+}
