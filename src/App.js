@@ -6,7 +6,7 @@ import Chart2 from "./components/Chart2";
 import DisplayResult from "./components/DisplayResult";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -22,12 +22,14 @@ class App extends Component {
 
           <Switch>
             <Route path="/" exact component={Chart2} />
+
             <Route path="/Dashboard" exact component={Dashboard} />
             <Route
               path="/DisplayResult/:year"
               exact
               component={DisplayResult}
             />
+            <Redirect from="*" to="/"></Redirect>
           </Switch>
         </Router>
       </div>

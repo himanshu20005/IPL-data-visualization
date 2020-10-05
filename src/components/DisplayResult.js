@@ -10,12 +10,14 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import Typography from "@material-ui/core/Typography";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faBaseballBall,
   faCalendarMinus,
   faMapMarkedAlt,
   faRecordVinyl,
   faUser,
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 //import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import {
@@ -62,6 +64,14 @@ function DisplayResult(props) {
   return (
     <Container>
       <CardDeck>
+        <Link to="/Dashboard">
+          <FontAwesomeIcon
+            style={{ marginTop: "20px" }}
+            icon={faArrowLeft}
+            size="2x"
+            color="#00416d"
+          />
+        </Link>
         {results.map((elem, index) => {
           return (
             <ResultItem
@@ -86,6 +96,14 @@ function DisplayResult(props) {
           );
         })}
       </CardDeck>
+      <Link to="/Dashboard">
+        <FontAwesomeIcon
+          style={{ marginBottom: "60px", float: "right" }}
+          icon={faArrowLeft}
+          size="2x"
+          color="#00416d"
+        />
+      </Link>
     </Container>
   );
 }
@@ -130,6 +148,7 @@ function ResultItem({
   return (
     <span>
       <br />
+
       <Card style={{ width: "21rem" }}>
         <Card.Header as="h5">
           {team1}
